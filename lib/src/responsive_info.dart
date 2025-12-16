@@ -232,25 +232,25 @@ class ResponsiveInfo {
   ///
   /// [baseWidth] The base width (default: 222.0).
   double buttonWidth({double baseWidth = 222.0}) => responsiveValue(
-    mobile: baseWidth,
-    tablet: baseWidth * 1.2,
-    desktop: baseWidth * 1.3,
-  );
+        mobile: baseWidth,
+        tablet: baseWidth * 1.2,
+        desktop: baseWidth * 1.3,
+      );
 
   /// Gets a responsive button height.
   ///
   /// [baseHeight] The base height (default: 50.0).
   double buttonHeight({double baseHeight = 50.0}) => responsiveValue(
-    mobile: baseHeight,
-    tablet: baseHeight * 1.1,
-    desktop: baseHeight * 1.2,
-  );
+        mobile: baseHeight,
+        tablet: baseHeight * 1.1,
+        desktop: baseHeight * 1.2,
+      );
 
   /// Gets safe padding that respects screen edges.
   EdgeInsets get safePadding => EdgeInsets.symmetric(
-    horizontal: horizontalPadding(),
-    vertical: verticalPadding(),
-  );
+        horizontal: horizontalPadding(),
+        vertical: verticalPadding(),
+      );
 
   /// Gets padding that includes system UI insets (notch, navigation bar, etc).
   ///
