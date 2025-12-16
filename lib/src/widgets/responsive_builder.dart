@@ -40,7 +40,7 @@ class ResponsiveBuilder extends StatelessWidget {
   final Widget Function(BuildContext context, ResponsiveInfo info) builder;
 
   /// Creates a [ResponsiveBuilder] with the given builder function.
-  const ResponsiveBuilder({super.key, required this.builder});
+  const ResponsiveBuilder({required this.builder, super.key});
 
   @override
   Widget build(BuildContext context) {

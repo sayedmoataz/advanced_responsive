@@ -17,8 +17,8 @@ class ResponsiveGridDemo extends StatelessWidget {
 
   /// Creates a [ResponsiveGridDemo] with the given [info].
   const ResponsiveGridDemo({
-    super.key,
     required this.info,
+    super.key,
     this.itemCount = 8,
     this.showColumnCount = true,
   });

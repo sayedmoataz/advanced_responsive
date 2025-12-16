@@ -37,8 +37,8 @@ class ResponsiveLayout extends StatelessWidget {
 
   /// Creates a [ResponsiveLayout] with device-specific children.
   const ResponsiveLayout({
-    super.key,
     required this.mobile,
+    super.key,
     this.tablet,
     this.desktop,
   });

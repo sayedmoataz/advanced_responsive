@@ -11,8 +11,8 @@ class DeviceInfoCard extends StatelessWidget {
 
   /// Creates a [DeviceInfoCard] with the given [info].
   const DeviceInfoCard({
-    super.key,
     required this.info,
+    super.key,
   });
 
   @override

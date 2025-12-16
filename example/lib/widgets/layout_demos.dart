@@ -11,8 +11,8 @@ class MobileLayoutDemo extends StatelessWidget {
 
   /// Creates a [MobileLayoutDemo] with the given [info].
   const MobileLayoutDemo({
-    super.key,
     required this.info,
+    super.key,
   });
 
   @override
@@ -48,8 +48,8 @@ class TabletLayoutDemo extends StatelessWidget {
 
   /// Creates a [TabletLayoutDemo] with the given [info].
   const TabletLayoutDemo({
-    super.key,
     required this.info,
+    super.key,
   });
 
   @override
@@ -96,8 +96,8 @@ class DesktopLayoutDemo extends StatelessWidget {
 
   /// Creates a [DesktopLayoutDemo] with the given [info].
   const DesktopLayoutDemo({
-    super.key,
     required this.info,
+    super.key,
   });
 
   @override
