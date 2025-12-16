@@ -1,3 +1,8 @@
+## 1.0.1
+
+* **Style:** Format responsive calculations to comply with Dart formatter
+* Improves pub.dev static analysis score
+
 ## 1.0.0
 
 * Initial release
