@@ -19,15 +19,15 @@ class ResponsiveGridDemo extends StatelessWidget {
   const ResponsiveGridDemo({
     required this.info,
     super.key,
-    this.itemCount = 8,
+    this.itemCount = 24,
     this.showColumnCount = true,
   });
 
   /// Gets the number of columns for the current device type.
   int get crossAxisCount => info.responsiveValue<int>(
-        mobile: 2,
-        tablet: 3,
-        desktop: 4,
+        mobile: 3,
+        tablet: 6,
+        desktop: 8,
       );
 
   @override
