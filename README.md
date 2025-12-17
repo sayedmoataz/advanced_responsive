@@ -3,9 +3,26 @@
 [![pub package](https://img.shields.io/pub/v/advanced_responsive.svg)](https://pub.dev/packages/advanced_responsive)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Coverage](https://img.shields.io/badge/coverage-65%25-yellow.svg)](https://github.com/sayedmoataz/advanced_responsive)
-[![Demo on Vercel](https://img.shields.io/badge/demo-Vercel-blue.svg)](https://example-991mru6gf-sayeds-projects-99956c6b.vercel.app)
+[![Live Demo](https://img.shields.io/badge/demo-live-blue.svg)](https://advanced-responsive-demo.vercel.app/)
 
-A comprehensive Flutter package for building responsive layouts with Material Design 3 breakpoints, device detection, responsive spacing, and context extensions.
+A comprehensive Flutter package for building responsive layouts using **Material Design 3 breakpoints**, device detection, responsive spacing, typography, and powerful context extensions.
+
+---
+
+## 🌐 Live Demo (Try it Yourself)
+
+🔗 **https://advanced-responsive-demo.vercel.app/**
+
+> 💡 **Important:**  
+> This demo is designed to be tested by **resizing the screen**.
+>
+> - Open **Browser DevTools (F12)**
+> - Toggle **Device Toolbar** (📱)
+> - Resize the viewport (320 → 600 → 840 → 1200px)
+>
+> Watch how layouts, spacing, typography, and grid columns adapt automatically.
+
+---
 
 ## Features
 
@@ -23,7 +40,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  advanced_responsive: ^1.0.2
+  advanced_responsive: ^1.0.3
 ```
 
 Then run:
@@ -32,13 +49,17 @@ Then run:
 flutter pub get
 ```
 
+---
+
 ## Quick Start
 
 ```dart
 import 'package:advanced_responsive/advanced_responsive.dart';
 ```
 
-### Using ResponsiveBuilder
+---
+
+## Using ResponsiveBuilder
 
 ```dart
 ResponsiveBuilder(
@@ -64,7 +85,9 @@ ResponsiveBuilder(
 )
 ```
 
-### Using Context Extension
+---
+
+## Using Context Extension
 
 ```dart
 Widget build(BuildContext context) {
@@ -87,7 +110,9 @@ Widget build(BuildContext context) {
 }
 ```
 
-### Using ResponsiveLayout
+---
+
+## Using ResponsiveLayout
 
 ```dart
 ResponsiveLayout(
@@ -97,24 +122,30 @@ ResponsiveLayout(
 )
 ```
 
-## Breakpoints
+---
 
-| Device  | Width Range     | Grid Columns |
-|---------|-----------------|--------------|
-| Mobile  | < 600px         | 4            |
-| Tablet  | 600px - 839px   | 8            |
-| Desktop | >= 840px        | 12           |
+## Breakpoints (Material Design 3)
+
+| Device  | Width Range   | Grid Columns |
+| ------- | ------------- | ------------ |
+| Mobile  | < 600px       | 4            |
+| Tablet  | 600px – 839px | 8            |
+| Desktop | ≥ 840px       | 12           |
+
+---
 
 ## Responsive Spacing
 
 | Spacing | Mobile | Tablet | Desktop |
-|---------|--------|--------|---------|
+| ------- | ------ | ------ | ------- |
 | xs      | 4      | 6      | 8       |
 | sm      | 8      | 12     | 16      |
 | md      | 16     | 24     | 32      |
 | lg      | 24     | 32     | 48      |
 | xl      | 32     | 48     | 64      |
 | xxl     | 48     | 64     | 96      |
+
+---
 
 ## API Reference
 
@@ -154,9 +185,11 @@ context.responsiveFontSize(16)
 
 ## Example
 
-See the [example](example/) folder for a complete demo application.
+The `example/` folder contains the full demo app.
 
-🔗 **Live demo on Vercel:** https://example-991mru6gf-sayeds-projects-99956c6b.vercel.app
+🌐 **Live Demo:** [https://advanced-responsive-demo.vercel.app/](https://advanced-responsive-demo.vercel.app/)
+
+---
 
 ## License
 
