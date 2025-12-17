@@ -1,3 +1,9 @@
+## 1.0.2
+
+* **Demo:** Live demo deployed on Vercel (https://example-991mru6gf-sayeds-projects-99956c6b.vercel.app)
+* Updated README with Vercel demo badge.
+
+
 ## 1.0.1
 
 * **Style:** Format responsive calculations to comply with Dart formatter

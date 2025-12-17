@@ -3,6 +3,7 @@
 [![pub package](https://img.shields.io/pub/v/advanced_responsive.svg)](https://pub.dev/packages/advanced_responsive)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Coverage](https://img.shields.io/badge/coverage-65%25-yellow.svg)](https://github.com/sayedmoataz/advanced_responsive)
+[![Demo on Vercel](https://img.shields.io/badge/demo-Vercel-blue.svg)](https://example-991mru6gf-sayeds-projects-99956c6b.vercel.app)
 
 A comprehensive Flutter package for building responsive layouts with Material Design 3 breakpoints, device detection, responsive spacing, and context extensions.
 
@@ -22,7 +23,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  advanced_responsive: ^1.0.0
+  advanced_responsive: ^1.0.2
 ```
 
 Then run:
@@ -154,6 +155,8 @@ context.responsiveFontSize(16)
 ## Example
 
 See the [example](example/) folder for a complete demo application.
+
+🔗 **Live demo on Vercel:** https://example-991mru6gf-sayeds-projects-99956c6b.vercel.app
 
 ## License
 
